@@ -1,0 +1,16 @@
+{
+  "name": "mindlap-architects-website",
+  "version": "1.0.0",
+  "description": "MindLap Architects website with contact form integration",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+    "resend": "^3.2.0"
+  },
+  "devDependencies": {
+    "vercel": "^33.0.0"
+  }
+}
