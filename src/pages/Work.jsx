@@ -54,7 +54,7 @@ function Work() {
     const images = []
     for (let i = 1; i <= project.imageCount; i++) {
       const imageNum = i.toString().padStart(2, '0')
-      images.push(`/images/projects/${project.folder}/${imageNum}.jpg`)
+      images.push(`${import.meta.env.BASE_URL}images/projects/${project.folder}/${imageNum}.jpg`)
     }
     return images
   }
@@ -74,7 +74,7 @@ function Work() {
             onClick={() => openProject(project)}
           >
             <img
-              src={`/images/projects/${project.folder}/01.jpg`}
+              src={`${import.meta.env.BASE_URL}images/projects/${project.folder}/01.jpg`}
               alt={project.name}
               loading="lazy"
             />

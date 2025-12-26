@@ -8,13 +8,13 @@ import './App.css'
 
 function App() {
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <div className="app">
         <aside className="sidebar">
           <div className="sidebar-content">
             <div className="logo-section">
               <Link to="/">
-                <img src="/images/logo.png" alt="ML Architects" className="logo" />
+                <img src={`${import.meta.env.BASE_URL}images/logo.png`} alt="ML Architects" className="logo" />
               </Link>
             </div>
 

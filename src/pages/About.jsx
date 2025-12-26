@@ -96,7 +96,7 @@ function About() {
   return (
     <div className="about-page">
       <div className="about-hero">
-        <img src="/images/about.png" alt="About Mindlap Architects" className="about-hero-image" />
+        <img src={`${import.meta.env.BASE_URL}images/about.png`} alt="About Mindlap Architects" className="about-hero-image" />
       </div>
 
       <div className="about-content">
