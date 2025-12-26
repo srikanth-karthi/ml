@@ -5,10 +5,10 @@ function Home() {
   const [currentImage, setCurrentImage] = useState(0)
 
   const images = [
-    '/images/01.jpg',
-    '/images/02.jpg',
-    '/images/03.jpg',
-    '/images/04.jpg'
+    `${import.meta.env.BASE_URL}images/01.jpg`,
+    `${import.meta.env.BASE_URL}images/02.jpg`,
+    `${import.meta.env.BASE_URL}images/03.jpg`,
+    `${import.meta.env.BASE_URL}images/04.jpg`
   ]
 
   useEffect(() => {
