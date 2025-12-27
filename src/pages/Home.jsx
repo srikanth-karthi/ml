@@ -30,7 +30,12 @@ function Home() {
           key={index}
           className={`slide ${index === currentImage ? 'active' : ''}`}
           style={{ backgroundImage: `url(${img})` }}
-        />
+        >
+          <div className="carousel-text-overlay">
+            <h1 className="carousel-title">MindLap Architects</h1>
+            <p className="carousel-subtitle">ARCHITECTURE | INTERIOR | LANDSCAPE</p>
+          </div>
+        </div>
       ))}
 
       <div className="carousel-dots">

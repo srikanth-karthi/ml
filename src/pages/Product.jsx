@@ -17,7 +17,7 @@ function Product() {
     <div className="product-page">
       <div className="product-content">
         <h3 className={`product-subtitle ${isVisible ? 'fade-in-top' : ''}`}>
-          WE ARE
+          WE ARE &  STAY TUNED
         </h3>
 
         <h1 className={`product-title ${isVisible ? 'scale-in' : ''}`}>
@@ -25,10 +25,6 @@ function Product() {
           <br />
           SOON!
         </h1>
-
-        <p className={`product-tagline ${isVisible ? 'fade-in-bottom' : ''}`}>
-          STAY TUNED
-        </p>
 
         <div className={`product-decoration ${isVisible ? 'draw-line' : ''}`}>
           <div className="line"></div>

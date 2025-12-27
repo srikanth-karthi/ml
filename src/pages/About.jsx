@@ -64,8 +64,8 @@ function About() {
   const animateCounters = () => {
     const targets = {
       years: 6,
-      customers: 10,
-      projects: 15,
+      customers: 15,
+      projects: 20,
       districts: 5
     }
 
@@ -132,26 +132,21 @@ function About() {
 
             <div ref={textRef} className={`about-text ${isTextVisible ? 'fade-in' : ''}`}>
               <p>
-                Mindlap Architects, established in 2019, is an architecture and interior design practice founded by Ar. Chella Priyanka and Ar. Ponkavi.
+               <span className="architects-names">Mindlap Architects</span>  established in 2019, is an architecture and interior design practice founded by <span className="architects-names">Ar. Chella Priyanka</span> and <span className="architects-names">Ar. Ponkavi.</span>
               </p>
 
               <p>
-                We believe architecture and interior design are not just about creating spaces, but about understanding people, purpose, and context. Every project we take up—regardless of scale—is approached with the same level of care, responsibility, and attention to detail.
+                We believe design goes beyond spaces—it begins with understanding people, purpose, and context. Our site-responsive approach allows each project to evolve naturally, resulting in practical, comfortable,
+and meaningful spaces.
               </p>
 
               <p>
-                Our design process begins with a deep understanding of the site, client requirements, and way of living or working. We strongly believe in site-responsive design, allowing each project to evolve naturally rather than forcing a fixed style. This approach helps us create spaces that are practical, comfortable, and meaningful.
+Working closely with clients from concept to execution, we ensure clear communication, smooth coordination, and thoughtful outcomes that stand the test of time.
               </p>
 
-              <p>
-                At Mindlap Architects, we work closely with our clients at every stage of the project. From concept development to detailed design and execution support, we ensure clear communication, smooth coordination, and informed decision-making. Our friendly and approachable working style helps build trust and makes the overall journey comfortable and transparent.
-              </p>
-              <p>
-                At Mindlap Architects, we aim to create thoughtful spaces that feel natural, function effortlessly, and stand the test of time.
-              </p>
 
               <p className="closing">
-                We design with understanding, responsibility, and heart.
+The mastermind of your thoughts
               </p>
             </div>
           </div>
@@ -166,47 +161,26 @@ function About() {
           <div className="expertise-grid">
             <div className="expertise-card">
               <div className="expertise-number">01</div>
-              <h3 className="expertise-heading">MASTER PLANNING</h3>
-              <ul className="expertise-list">
-                <li>Institutional</li>
-                <li>Multi storied Housing & Villas</li>
-                <li>Hospitality</li>
-                <li>Infrastructure</li>
-              </ul>
+              <h3 className="expertise-heading">Architectural Design</h3>
+              <p className="expertise-description">Site-responsive and functional architecture tailored to people and purpose.</p>
             </div>
 
             <div className="expertise-card">
               <div className="expertise-number">02</div>
-              <h3 className="expertise-heading">ARCHITECTURAL DESIGN</h3>
-              <ul className="expertise-list">
-                <li>Residential</li>
-                <li>Educational</li>
-                <li>Commercial</li>
-                <li>Hospitals</li>
-                <li>Religious</li>
-                <li>Industrial</li>
-              </ul>
+              <h3 className="expertise-heading">Interior Design</h3>
+              <p className="expertise-description">Thoughtful interiors focused on comfort, clarity, and everyday usability.</p>
             </div>
 
             <div className="expertise-card">
               <div className="expertise-number">03</div>
-              <h3 className="expertise-heading">INTERIOR DESIGN</h3>
-              <ul className="expertise-list">
-                <li>Corporate Offices</li>
-                <li>High end Villas</li>
-                <li>Institutional</li>
-                <li>Furniture Design</li>
-              </ul>
+              <h3 className="expertise-heading">Design + Build</h3>
+              <p className="expertise-description">End-to-end design and execution for seamless coordination and delivery.</p>
             </div>
 
             <div className="expertise-card">
               <div className="expertise-number">04</div>
-              <h3 className="expertise-heading">DESIGN & BUILD</h3>
-              <ul className="expertise-list">
-                <li>Corporate Offices</li>
-                <li>Luxury Houses</li>
-                <li>Hospitality</li>
-              </ul>
+              <h3 className="expertise-heading">Landscape Design</h3>
+              <p className="expertise-description">Simple, functional outdoor spaces that complement the built environment.</p>
             </div>
           </div>
         </div>

@@ -20,7 +20,7 @@ function App() {
 
             <nav className="nav-menu">
               <Link to="/about">About us</Link>
-              <Link to="/work">Work</Link>
+              <Link to="/work">Our Work</Link>
               <Link to="/product">Product</Link>
               <Link to="/contact">Contact</Link>
             </nav>
